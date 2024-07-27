@@ -16,13 +16,13 @@ _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn 
   to send email.
 - Create a new service, select and log in to your newly created outlook or gmail account on EmailJS.
 - Go back to the dashboard and get the Service ID copy it.
-- Create a .env file in your root folder and put
+- Update a gedit.js file in components root folder and update
 
 ```
 
-NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
-NEXT_PUBLIC_TEMPLATE_ID = 'template_fqqqb9g'
-NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
+'YOUR_USER_ID'
+'template_fqqqb9g'
+'YOUR_SERVICE_ID'
 
 ```
 
